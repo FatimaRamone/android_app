@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fatima is coding android</string>
+
+    <string name="hello_world">Oraciones</string>
+
+    <string name="padre">Padre Nuestro\n </string>
+    <string name="padre_o">Padre nuestro que estás en el cielo,\n
+santificado sea tu Nombre;\n
+venga a nosotros tu Reino;\n
+hágase tu voluntad\n
+en la tierra como en el cielo.\n
+Danos hoy\n
+nuestro pan de cada día;\n
+perdona nuestras ofensas,\n
+como también nosotros perdonamos\n
+a los que nos ofenden;\n
+no nos dejes caer en la tentación,\n
+y líbranos del mal. Amén.</string>
+
+</resources>

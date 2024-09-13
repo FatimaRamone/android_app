@@ -1,0 +1,86 @@
+[versions]
+agp = "8.5.2"
+comGoogleDevtoolsKspGradlePlugin = "2.0.20-1.0.25"
+gradle = "8.5.2"
+kotlin = "2.0.20"
+composeCompiler = "2.0.0"  # Asegúrate de tener una versión válida para el compilador de Compose
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinGradlePlugin = "1.9.0"
+kotlinGradlePluginVersion = "2.0.20"
+lifecycleRuntimeKtx = "2.8.5"
+activityCompose = "1.9.2"
+composeBom = "2024.09.00"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+material3 = "1.3.0"
+room = "2.6.1"
+dagger = "2.51.1"
+ksp = "1.9.0"
+junit4 = "4.13.2"
+composeUiTestJunit4 = "1.7.0"
+
+[libraries]
+
+com-google-devtools-ksp-gradle-plugin = { module = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin", version.ref = "comGoogleDevtoolsKspGradlePlugin" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit4 = { module = "junit:junit", version.ref = "junit4" }
+
+androidx-compose-ui-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlin-gradle-plugin-v2020 = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePluginVersion" }
+kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "room" }
+androidx-room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }
+androidx-room-guava = { module = "androidx.room:room-guava", version.ref = "room" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
+
+
+
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+mlkit-text-recognition = { module = "com.google.mlkit:text-recognition", version = "16.0.1" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "composeUiTestJunit4" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+ui = { module = "androidx.compose.ui:ui" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "composeCompiler" }
+ksp = { id = "com.google.devtools.ksp", version = "2.0.20-1.0.25" }
+
+
+
+
