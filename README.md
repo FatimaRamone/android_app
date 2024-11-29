@@ -17,7 +17,7 @@ Explore es una aplicación Android que permite capturar imágenes desde la cáma
 - **Lifecycle** para observar y reaccionar a los cambios de datos.
 
 ## 📋 Requisitos
-- Android Studio instalado (versión recomendada: Arctic Fox o superior).
+- Android Studio instalado (versión : Arctic Fox o superior).
 - SDK de Android configurado (versión mínima: API 21).
 - Dispositivo o emulador con cámara.
 
